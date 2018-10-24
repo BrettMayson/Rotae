@@ -1,0 +1,9 @@
+[package]
+name = "rotae"
+version = "0.1.0"
+authors = ["brett"]
+
+[dependencies]
+dbus = "*"
+gio = { git = "https://github.com/gtk-rs/gio.git" }
+rand = "*"

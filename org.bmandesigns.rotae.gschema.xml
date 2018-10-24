@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+
+  <schema path="/org/bmandesigns/rotae/" id="org.bmandesigns.rotae">
+
+    <key name='active-folders' type='as'>
+      <default>[]</default>
+      <summary>Active Folders</summary>
+      <description>
+        These folders will be used in the pool of available photos.
+      </description>
+    </key>
+
+    <key name="delay" type="i">
+      <default>10</default>
+      <summary>Image Delay</summary>
+      <description>
+        The amount of time between image transitions.
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>
